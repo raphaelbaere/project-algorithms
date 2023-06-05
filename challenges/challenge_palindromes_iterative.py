@@ -1,6 +1,6 @@
 def is_palindrome_iterative(word):
-    if word == '':
-      return False
+    if word == "":
+        return False
     is_palindrome = True
     for i in range(len(word)):
         highIndex = len(word) - 1 - i
